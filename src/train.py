@@ -1,3 +1,11 @@
+"""
+
+# Reference papers
+
+- [Very Deep Convolutional Neural Networks for Raw Waveforms]
+  (https://arxiv.org/abs/1610.00087)
+
+"""
 from __future__ import print_function
 import argparse
 import torch
@@ -180,8 +188,8 @@ def main():
     parser.add_argument(
         "--test-batch-size", type=int, default=2000, help="test batch size",
     )
-    parser.add_argument("--epochs", type=int, default=2, help="number of epochs (default: 2)")
-    parser.add_argument("--lr", type=float, default=0.01, help="learning rate (default: 1.0)")
+    parser.add_argument("--epochs", type=int, default=2, help="number of epochs")
+    parser.add_argument("--lr", type=float, default=0.01, help="learning rate")
     parser.add_argument("--gamma", type=float, default=0.1, help="Learning rate step gamma")
     parser.add_argument("--weight-decay", type=float, default=0.0001, help="Optimizer regularization")
     parser.add_argument("--stepsize", type=int, default=5, help="Step LR size")
