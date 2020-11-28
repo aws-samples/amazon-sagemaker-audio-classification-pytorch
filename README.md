@@ -21,6 +21,10 @@ The objective of this post is to demonstrate audio classification using SageMake
 - Run PyTorch training job using SageMaker script mode
 - Deploy custom model using default SageMaker PyTorch container for inference
 
+## Notes
+
+This is tested on sagemaker==1.64.1
+
 # License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
